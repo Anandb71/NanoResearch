@@ -99,7 +99,7 @@ class ResearchConfig(BaseModel):
     )
     figure_gen: StageModelConfig = Field(
         default_factory=lambda: StageModelConfig(
-            model="gpt-image-2",
+            model="gpt-image-2.6-sunburst",
             image_backend="openai",
             temperature=None,
             timeout=600.0,

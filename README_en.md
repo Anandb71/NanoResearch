@@ -372,7 +372,7 @@ pip install -e ".[dev]"
     "figure_prompt": { "model": "pro/gpt-5.5", "temperature": 0.5, "max_tokens": 4096, "timeout": 300.0 },
     "figure_code": { "model": "pro/gpt-5.5", "temperature": 0.1, "max_tokens": 16384, "timeout": 600.0 },
     "figure_gen": {
-      "model": "gpt-image-2",
+      "model": "gpt-image-2.6-sunburst",
       "image_backend": "openai",
       "base_url": "https://your-image-endpoint/v1/",
       "api_key": "your-image-api-key",
@@ -483,7 +483,7 @@ After training, set `ram_checkpoint_path` to the output directory so subsequent 
 | `writing` | Paper writing | pro/gpt-5.5 / Claude Sonnet 4.6 | DeepSeek-V3.2 |
 | `figure_prompt` | Figure description | pro/gpt-5.5 | DeepSeek-V3.2 |
 | `figure_code` | Chart plotting code | pro/gpt-5.5 | DeepSeek-V3.2 |
-| `figure_gen` | AI architecture diagrams | gpt-image-2 (OpenAI-compatible image API) | gpt-image-2 |
+| `figure_gen` | AI architecture diagrams | gpt-image-2.6-sunburst (OpenAI-compatible image API) | gpt-image-2.6-sunburst |
 | `review` | Review + revision | DeepSeek-V3.2 / pro/gpt-5.5 | DeepSeek-V3.2 |
 
 
